@@ -24,7 +24,7 @@ flechaIzquierda.addEventListener('click', () => {
 	}
 });
 
-// ------- --------- Paginación (Por una extraña razón no funciona)------- ---------- //
+// ------- --------- Paginación ------- ---------- //
 
 const numeroPaginas = Math.ceil(tutoriales.length / 5);
 for(let i = 0; i < numeroPaginas; i++){
@@ -40,7 +40,7 @@ for(let i = 0; i < numeroPaginas; i++){
     });
 }
 
-// ------- --------- Hover (Tampoco funciona) ------- ---------- //
+// ------- --------- Hover  ------- ---------- //
 
 tutoriales.forEach((tutorial) => {
     tutorial.addEventListener('mouseenter', (e) => {
